@@ -15,7 +15,7 @@ function SearchBook() {
 
   }
   function handleSubmit(event){
-    axios.get("https://www.googleapis.com/books/v1/volumes?q="+book+"&key="+apiKey+"&maxResults=30")
+    axios.get("https://www.googleapis.com/books/v1/volumes?q="+book+"&key="+apiKey+"&maxResults=6")
     .then(data =>{
       console.log(data);
       setResult(data.data.items);
