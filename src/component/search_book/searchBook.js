@@ -33,7 +33,7 @@ function SearchBook() {
             <Form.Control type="text" onChange={handleChange}  placeholder='Enter Book Name' value={book} />
             <Form.Text className='text-muted'>Please type the name of any book above.</Form.Text>
           </Form.Group>
-          <Button  variant='success' type='submit'>Search</Button>
+          <Button  variant='success' type='submit'>Search</Button><br/><br/><br/>
         </Form>
         </Container>
         <Booklist result={result}></Booklist>

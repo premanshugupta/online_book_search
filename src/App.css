@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.txt{
+  color: #FFF;
+  font-size: x-large;
+}
+.txt:hover{
+  color: #daa520 !important;
+  font-weight: 600;
+  font-size: 20px;
+  transition-duration: 4s;
+}
+
